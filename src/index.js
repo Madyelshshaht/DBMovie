@@ -14,7 +14,6 @@ app.use(express.json())
 app.use(express.urlencoded({ extended: false }))
 
 require('dotenv').config();
-
 const JWT_SECRET = process.env.JWT_SECRET || 'your_secret_key';
 
 
